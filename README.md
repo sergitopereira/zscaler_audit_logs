@@ -11,35 +11,35 @@ Moreover, the script can also send audit scripts to a sys log server specified.
 # Run Locally
 ```bash
 # Clone repo
-git clone https://github.com/sergitopereira/zscaler_audit_report.git
+git clone https://github.com/sergitopereira/zscaler_audit_logs.git
 
 # Install dependencies
-pip3 install -r zscaler_audit_report/requirements.txt
+pip3 install -r zscaler_audit_logs/requirements.txt
 
 # Usage
-python3 zscaler_audit_report -h
+python3 zscaler_audit_logs -h
 ```
 
 # Run in a Virtual Environment
 ```bash
 # Clone repo
-git clone https://github.com/sergitopereira/zscaler_audit_report.git
+git clone https://github.com/sergitopereira/zscaler_audit_logs.git
 
 # Create and enter virtual environment
-python3 -m venv zscaler_audit_report/venv
-source zscaler_audit_report/venv/bin/activate
+python3 -m venv zscaler_audit_logs/venv
+source zscaler_audit_logs/venv/bin/activate
 
 # Install dependencies
-pip install -r zscaler_audit_report/requirements.txt
+pip install -r zscaler_audit_logs/requirements.txt
 
 # Usage
-python zscaler_audit_report -h
+python zscaler_audit_logs -h
 ```
 # Run with Docker
 
 ```bash
 # Download Dockerfile
-wget https://raw.githubusercontent.com/sergitopereira/zscaler_audit_report/master/Dockerfile
+wget https://raw.githubusercontent.com/sergitopereira/zscaler_audit_logs/master/Dockerfile
 
 # Build Image and Run Container
 docker build -t audit .  

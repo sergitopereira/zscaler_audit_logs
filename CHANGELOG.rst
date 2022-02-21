@@ -1,5 +1,11 @@
 Version 1.1
 -------------
+:Date: February 23, 2022
+- Renamed to zscaler_audit_logs
+
+
+Version 1.1
+-------------
 
 :Date: October 23, 2021
 
