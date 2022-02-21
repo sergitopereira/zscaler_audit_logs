@@ -48,7 +48,26 @@ docker run -it audit bash
 # Usage (program is in /app/)
 python app -h
 ```
+# Usage
 
+```
+usage: zscaler_audit_logs [-h] [-24] [-5] -a API_KEY -u USER -p PASSWORD -c CLOUD [-v] [-rlog REMOTE_LOGGING]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -24, --last-24        Get audit report for last 24 hours (1440 min) and save result in csv file
+  -5, --last-5          Get audit report for last 5 minutes and save result in csv file
+  -a API_KEY, --api_key API_KEY
+                        ZIA API key
+  -u USER, --user USER  ZIA username (email address)
+  -p PASSWORD, --password PASSWORD
+                        ZIA password
+  -c CLOUD, --cloud CLOUD
+                        ZIA cloud
+  -v, --version         show the version information and exit
+  -rlog REMOTE_LOGGING, --remote_logging REMOTE_LOGGING
+                        Remote syslog server information. Format IP address:protocol:port Example X.X.X.X:PROTOCOL:PORT or FQDN:PROTOCOL:PORT
+```
 ---
 
 # Credits
